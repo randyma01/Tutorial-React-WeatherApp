@@ -37,9 +37,11 @@ function App() {
           : 'App'
       }
     >
-      <h1> Type the city: </h1>
-
       <main>
+        <div className='div-title'>
+          <h1 className='title'> Type the city: </h1>
+        </div>
+
         <div className='search-container'>
           <input
             type='text'

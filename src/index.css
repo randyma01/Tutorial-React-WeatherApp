@@ -8,6 +8,16 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
+.div-title {
+  display: flex;
+  align-items: center;
+  margin: 0.3rem;
+}
+
+.main-title {
+  color: black;
+}
+
 .App {
   background-image: linear-gradient(
       to right,
