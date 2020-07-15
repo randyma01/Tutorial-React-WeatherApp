@@ -37,6 +37,8 @@ function App() {
           : 'App'
       }
     >
+      <h1> Type the city: </h1>
+
       <main>
         <div className='search-container'>
           <input
