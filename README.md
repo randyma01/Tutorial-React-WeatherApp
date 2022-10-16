@@ -1,8 +1,8 @@
 # Building a Weather App using React.js and Open Weather (API) 🌤
 
-- Tutorial made by K G Prajwal [@kgprajwal](https://dev.to/kgprajwal)
+- Tutorial made by K G Prajwal [@kgprajwal](https://dev.to/kgprajwal):
 
-- Taken from [here](https://bit.ly/3EKQJGZ).
+  - Taken from [here](https://bit.ly/3EKQJGZ).
 
 - Important Links:
 
