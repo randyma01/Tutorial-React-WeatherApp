@@ -14,7 +14,9 @@ function App() {
   };
 
   const [query, setQuery] = useState('');
+
   const [weather, setWeather] = useState({});
+
   const search = (e) => {
     if (e.key === 'Enter') {
       fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
@@ -22,7 +24,6 @@ function App() {
         .then((result) => {
           setQuery('');
           setWeather(result);
-          console.log(result);
         });
     }
   };
@@ -38,33 +39,34 @@ function App() {
       }
     >
       <main>
-        <div className='div-title'>
-          <h1 className='title'> Type the city: </h1>
+        <div className="div-title">
+          <h1 className="title"> Type the city: </h1>
         </div>
 
-        <div className='search-container'>
+        <div className="search-container">
           <input
-            type='text'
-            placeholder='Search...'
-            className='search-bar'
+            type="text"
+            placeholder="Search..."
+            className="search-bar"
             onChange={(e) => setQuery(e.target.value)}
             value={query}
             onKeyPress={search}
           />
         </div>
+
         {typeof weather.main != 'undefined' ? (
           <div>
-            <div className='location-container'>
-              <div className='location'>
+            <div className="location-container">
+              <div className="location">
                 {weather.name}, {weather.sys.country}
               </div>
-              <div className='date'> {dateBuild(new Date())}</div>
+              <div className="date"> {dateBuild(new Date())}</div>
             </div>
-            <div className='weather-container'>
-              <div className='temperature'>
+            <div className="weather-container">
+              <div className="temperature">
                 {Math.round(weather.main.temp)}°C
               </div>
-              <div className='weather'>{weather.weather[0].main}</div>
+              <div className="weather">{weather.weather[0].main}</div>
             </div>
           </div>
         ) : (
