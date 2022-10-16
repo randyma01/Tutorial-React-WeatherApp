@@ -3,7 +3,8 @@
 # module: frontend #
 
 # sensitive #
-#/src/keys.js#
+/src/keys.js#
+.env
 
 # dependencies #
 /node_modules

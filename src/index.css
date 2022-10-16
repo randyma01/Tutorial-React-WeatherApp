@@ -7,6 +7,21 @@
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+.main-title {
+  color: black;
+}
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+
+label {
+  color: white;
+  margin: 5px;
+  font-size: 15px;
+  font-family: fantasy;
+}
 
 .div-title {
   display: flex;
@@ -14,8 +29,10 @@ body {
   margin: 0.3rem;
 }
 
-.main-title {
-  color: black;
+.div-subTitle {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
 }
 
 .App {
@@ -39,11 +56,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.2s ease;
-}
-
-main {
-  min-height: 100vh;
-  padding: 25px;
 }
 
 .App.cold {
@@ -119,11 +131,4 @@ main {
   font-size: 50px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(58, 53, 53, 0.73);
-}
-
-label {
-  color: white;
-  margin: 5px;
-  font-size: 15px;
-  font-family: fantasy;
 }
