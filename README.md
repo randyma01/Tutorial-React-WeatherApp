@@ -1,5 +1,13 @@
-# Building a Weather App using React.js and OpenWeatherMap (API) 🚀
+# Building a Weather App using React.js and Open Weather (API) 🌤
 
-Tutorial made by K G Prajwal (@kgprajwal)
+- Tutorial made by K G Prajwal [@kgprajwal](https://dev.to/kgprajwal)
 
-Taken from: https://dev.to/kgprajwal/learn-react-by-building-a-weather-app-3229?fbclid=IwAR2ElAwhIU2JV3hEfnLRzZn-d5n0xZbyxHQg63Bgw431JPwBP3u8CkbUeOs
+- Taken from [here](https://bit.ly/3EKQJGZ).
+
+- Important Links:
+
+  - Open Weather API: https://openweathermap.org/api
+
+- Disclaimer:
+  - Most of the code is based on the tutorial, some changes were made by me (Randy). All the rights to the Prajwal.
+  - These projects have the purposed to learn about React and put it into practice.
